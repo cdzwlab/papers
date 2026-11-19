@@ -1,0 +1,49 @@
+\begin{thebibliography}{7}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{#1}
+\expandafter\ifx\csname urlstyle\endcsname\relax\relax\else
+  \urlstyle{same}\fi
+\providecommand{\href}[2]{\url{#2}}
+\providecommand{\doi}[1]{\href{https://doi.org/#1}{#1}}
+
+\bibitem[Rivest et~al.(1978)Rivest, Shamir, and Adleman]{odspubkey}
+RIVEST~R, SHAMIR~A, ADLEMAN~L.
+\newblock A method for obtaining digital signatures and public-key
+  cryptosystems\allowbreak[J/OL].
+\newblock Commun. ACM, 1978, 21:\penalty0 120-126.
+\newblock DOI: \doi{10.1145/357980.358017}.
+
+\bibitem[Mceliece(1978)]{pubkeycrypto}
+MCELIECE~R.
+\newblock A public-key cryptosystem based on algebraic coding
+  theory\allowbreak[J].
+\newblock JPL DSN Progress Report, 1978, 44.
+
+\bibitem[Merkle(1980)]{pubkey}
+MERKLE~R.
+\newblock Protocols for public key cryptosystems\allowbreak[C/OL]//\allowbreak
+1980: 122-134.
+\newblock DOI: \doi{10.1109/SP.1980.10006}.
+
+\bibitem[Nakamoto(2009)]{bitcoin}
+NAKAMOTO~S.
+\newblock Bitcoin: A peer-to-peer electronic cash system\allowbreak[J].
+\newblock http://www.bitcoin.org/bitcoin.pdf, 2009.
+
+\bibitem[fap()]{fapiao}
+{百度百科：发票}\allowbreak[EB/OL].
+\newblock \url{{https://baike.baidu.com/item/%E5%8F%91%E7%A5%A8}}.
+
+\bibitem[dou()]{doubleentry}
+{百度百科：复式记账法}\allowbreak[EB/OL].
+\newblock
+  \url{{https://baike.baidu.com/item/%E5%A4%8D%E5%BC%8F%E8%AE%B0%E8%B4%A6%E6%B3%95}}.
+
+\bibitem[Huang(2020)]{lifeng_huang_2020_4317141}
+HUANG~L.
+\newblock
+  单式协同记账法:一种基于分布式账本技术的可以防止财务造假的记账方法\allowbreak[M/OL].
+\newblock Zenodo, 2020.
+\newblock \url{https://doi.org/10.5281/zenodo.4317141}.
+
+\end{thebibliography}

@@ -1,0 +1,54 @@
+This is BibTeX, Version 0.99d (TeX Live 2020)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+The style file: cjc.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Database file #1: ref.bib
+Warning--empty year in fapiao
+Warning--empty year in doubleentry
+Warning--empty booktitle in pubkey
+Warning--empty author in fapiao
+Warning--empty author in doubleentry
+You've used 7 entries,
+            4075 wiz_defined-function locations,
+            893 strings with 7020 characters,
+and the built_in function-call counts, 19960 in all, are:
+= -- 524
+> -- 1967
+< -- 2632
++ -- 770
+- -- 75
+* -- 227
+:= -- 2857
+add.period$ -- 21
+call.type$ -- 7
+change.case$ -- 18
+chr.to.int$ -- 686
+cite$ -- 14
+duplicate$ -- 141
+empty$ -- 520
+format.name$ -- 45
+if$ -- 5199
+int.to.chr$ -- 1
+int.to.str$ -- 8
+missing$ -- 0
+newline$ -- 45
+num.names$ -- 15
+pop$ -- 928
+preamble$ -- 1
+purify$ -- 7
+quote$ -- 0
+skip$ -- 1919
+stack$ -- 0
+substring$ -- 1031
+swap$ -- 9
+text.length$ -- 42
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 87
+warning$ -- 5
+while$ -- 58
+width$ -- 0
+write$ -- 101
+(There were 5 warnings)

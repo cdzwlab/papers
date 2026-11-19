@@ -1,0 +1,88 @@
+% !TeX encoding = UTF-8
+% !TeX program = xelatex
+% !TeX spellcheck = en_US
+
+\documentclass{cjc}
+
+\usepackage{booktabs}
+\usepackage{algorithm}
+\usepackage{algorithmic}
+\usepackage{siunitx}
+\usepackage{silence}
+\usepackage{float}
+\usepackage{url}
+\hbadness=10000 \vbadness=10000 
+\WarningFilter{Fancyhdr}{\headheight is too small}
+
+\classsetup{
+  % 配置里面不要出现空行
+  title        = {单式协同记账法：一种基于分布式账本技术的可以防止财务造假的记账方法},
+  title*       = {Single entry collaborative bookkeeping: a bookkeeping method that can prevent financial fraud based on distributed ledger technology},
+  authors      = {
+    author1 = {
+      name         = {黄立峰},
+      name*        = {Lifeng Huang},
+      affiliations = {aff1},
+      biography    = {男，1978年生，化学工程和计算机应用工学学士，CCF会员（NO.E4406M），主要研究领域为分布式系统（分布式账本、区块链、分布式存储等）、密码学（隐私保护、隐私计算等）、加密经济学、加密货币.},
+      % 英文作者介绍内容包括：出生年, 学位(或目前学历), 职称, 主要研究领域(与中文作者介绍中的研究方向一致).
+      biography*   = {Male, born in 1978, Bachelor of chemical engineering, computer and applied engineering, CCF member (No. e4406m).His main research interests include distributed system (distributed ledger technology, blockchain, distributed storage, etc.), cryptography (privacy protection, privacy computing, etc.), cryptoeconomics, cryptocurrency.},
+      email        = {hfeeki@outlook.com},
+      phone-number = {18612986682},  % 第1作者手机号码(投稿时必须提供，以便紧急联系，发表时会删除)
+    },
+  },
+  % 论文定稿后，作者署名、单位无特殊情况不能变更。若变更，须提交签章申请，
+  % 国家名为中国可以不写，省会城市不写省的名称，其他国家必须写国家名。
+  affiliations = {
+    %aff1 = {
+    %  name  = {独立研究员, 北京市\ 100000},
+     % name* = {Department of ****, University, City ZipCode, Country},
+    %},
+  },
+  abstract     = {
+    因为发现已经被人类使用了大概500年的复式记账法，是造成财务造假问题的根源性技术原因之一。为了解决这个问题，作者提出基于分布式账本技术，一是采取多方共用账本，二是做到现场即时记账，三是在记账时实现买卖双方交叉验证且二次确认，四是事后随时可溯源追责的解决方案，该方案可以让相关方降低成本并提高效率；减少数据孤岛效应；并使得链上链下都做到不敢造假，不能造假，进而形成不愿造假的社会风气；因为不造假，因此可以大幅提高整个社会中商业活动的质量。
+  },
+  abstract*    = {Because it is finds that double entry bookkeeping, which has been used by human beings for about 500 years, is one of the root technical causes of financial fraud. In order to solve this problem, the author proposes a solution based on distributed ledger technology: one is to share the ledger by multiple parties; the second is to realize on-site instant bookkeeping; the third is to achieve cross-verification and secondary confirmation between the buyer and the seller during bookkeeping; the fourth is to trace the source of responsibility at any time afterwards. This solution can reduce the cost and improve the efficiency of relevant parties; reduce the effect of data islanding; and make the chain both on-chain and off-chain do not dare to fake, can not fake, thus forming a social atmosphere that is unwilling to fake; because no fraud, so it can greatly improve the quality of business activities in the entire society.},
+  % 中文关键字与英文关键字对应且一致，应有5-7个关键词，不要用英文缩写
+  keywords     = {复式记账, 记账法, 会计, 财务造假, 发票, 小票, 收据, 分布式账本, 区块链, 密码学, 数字签名},
+  keywords*    = {double entry bookkeeping, bookkeeping method, accounting, financial fraud, invoice, receipt, distributed ledger technology, blockchain, cryptography, digital signature},
+  % clc           = {TP393},
+  % doi           = {},  % 投稿时不提供DOI号
+  % received-date = {2019-08-10},  % 收稿日期
+  % revised-date  = {2019-10-19},  % 最终修改稿收到日期，投稿时不填写此项
+  % publish-date  = {2020-03-16},  % 出版日期
+  % page          = 512,
+}
+
+\newcommand\dif{\mathop{}\!\mathrm{d}}
+
+% hyperref 总是在导言区的最后加载
+\usepackage{hyperref}
+
+\begin{document}
+
+\maketitle
+
+\input{content/introduction}
+\input{content/method}
+\input{content/problems}
+\input{content/solution}
+\input{content/virtue}
+\input{content/conclusion}
+\input{content/thanks}
+
+\nocite{*}
+
+\bibliographystyle{cjc}
+\bibliography{ref}
+
+\newpage
+
+\appendix
+
+\input{content/cases}
+
+\makebiographies
+
+\input{content/background}
+
+\end{document}
